@@ -1,0 +1,530 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+body {
+    background-color: black;
+    overflow-y: auto;
+    
+    
+}
+
+
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    height: 110vh;
+    position: relative;
+    
+}
+
+.box
+{
+height: 120vh;
+width: 100%;
+opacity: 0.69;
+position: absolute;
+top: 0;
+background-color: black;
+
+
+
+}
+
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+      
+}
+
+nav button
+{
+    position: relative;
+    z-index: 10;
+}
+
+.hero
+{
+    font-family: "Martel Sans", sans-serif;
+    
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    
+}
+
+.hero> :nth-child(1)
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2)
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(3)
+{
+    font-weight: 500;
+    font-size: 24px;
+     text-align: center;
+}
+.hero> :nth-child(4)
+{
+    font-weight: 400;
+    font-size: 15px;
+     text-align: center;
+}
+
+
+.btn
+{
+padding: 3px 8px;
+font-weight: 400;
+background-color: rgba(217, 211, 211, 0.031);
+color: white;
+border-radius: 4px;
+border: 1px solid white;
+}
+
+.btn-red
+{
+    background-color: rgb(229, 9, 20);
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem;
+    min-height: 3.5rem;
+    width: auto;
+    border-radius: 0.25rem;
+    border: 0px;
+}
+
+.btn-red-sm
+{
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    
+}
+
+
+.inpu{
+    padding: 26px 180px 8px 10px;
+    
+    font-size: 15px;
+    border-radius: 4px;
+    
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(246, 235, 235, 0.5);
+    font-size: medium;
+    font-weight: 500;
+    text-align: left;
+    
+     
+}
+
+
+.btn-red-sm
+{
+    background-color: red;
+    color: white;
+}
+
+.seperation
+{
+    border: 4px solid red;
+    
+}
+.movie-sec
+{
+    padding-left: 170px;
+}
+
+.heading
+{
+    color: white;
+    margin-top: 80px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+.cards
+{
+    display: flex;
+    overflow-x: auto; 
+    padding-bottom: 10px;
+    gap: 20px;
+  margin-right: 130px;
+    
+}
+.card-but ::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+.cards img{
+    height: 250px;
+    width: 250px;
+}
+.movie{
+flex: 0 0 auto;
+width: 200px;
+transition: transform 0.3s ease-in;
+}
+
+.movie img{
+width: 100%;
+border-radius: 4px;
+}
+
+.movie :hover
+{
+    transform: scale(1.1);
+}
+.he{
+    color: white;
+    padding-top: 70px;
+    padding-left: 170px;
+    padding-bottom: 10px;
+}
+
+
+.boxcard
+{
+    color: white;
+    
+    display: flex;
+    flex-direction: row;
+  
+    padding-top: 20px;
+   padding-left: 130px;
+}
+
+.box1
+{
+     width: 290px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #1f1425;
+    padding-top: 10px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 25px;
+}
+.box1 svg{
+position: relative;
+top: 10px;
+left: 10px;
+}
+.box2
+{
+    width: 290px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #1f1425;
+    padding-top: 10px;
+    margin-left: 16px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.box2 svg{
+position: relative;
+bottom: 2px;
+left: 10px;
+}
+.box3
+{
+    width: 290px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #1f1425;
+    padding-top: 10px;
+    margin-left: 16px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.box3 svg{
+position: relative;
+top: 20px;
+left: 10px;
+}
+.box4
+{
+    width: 290px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #1f1425;
+    padding-top: 10px;
+    margin-left: 16px;
+    position: relative;
+    bottom: 25px;
+    
+    
+}
+.box4 svg{
+position: relative;
+bottom: 10px;
+leftt: 10px;
+}
+
+.boxcard h2
+{
+    padding-left: 10px;
+}
+.boxcard p{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.boxcard svg{
+    padding-left: 195px;
+    padding-top: 70px;
+    
+}
+
+.faq h2{
+   
+    text-align:left ;
+    margin-left: 138px;
+    font-size: 24px;
+   
+}
+
+.faq{
+    background-color: black;
+    color: rgb(250, 243, 243);
+    padding: 34px;
+}
+
+.faqbox svg{
+    filter: invert(1);
+}
+
+.faqbox:hover
+{
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox
+{
+    transition: all 2s ease-in-out ;
+    font-size: 24px;
+    display: flex;
+    background-color:#2d2d2d;
+    padding: 24px ;
+    margin: 10px 140px;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.bottom
+{
+    padding-left: 400px;
+    margin-top: 50px;
+    
+    
+}
+
+.bott{
+    color: white;
+   padding-bottom: 10px;
+   font-family: sans-serif;
+}
+
+.bottom-button input
+{
+    background-color: black;
+    border: 1 solid;
+    padding-left: 20px;
+   
+}
+
+.inp
+{
+    width: 560px;
+    height: 55px;
+    margin-right: 6px;
+    position: relative;
+    right: 80px;
+    border-radius: 5px;
+   
+    font: inherit;
+    letter-spacing: normal;
+    
+   
+    
+}
+.bottom-b
+{
+     width: 230px;
+    height: 58px;
+   font-size: 25px;
+   padding-bottom: 18px;
+   position: relative;
+   right: 80px;
+   top: 5px;
+}
+
+footer{
+color: white;
+  max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .Questions
+{
+    padding: 34px 0;
+   position: relative;
+   right: 120px;
+    
+}
+
+.footer a{
+    color: white;
+    font-size: 14px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 150px;
+    position: relative;
+    right: 120px;
+    
+   
+}
+
+@media screen and (max-width : 1300px){
+    .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    gap: 25px;
+}
+nav {
+max-width: 90vw;
+};
+.hero> :nth-child(1)
+{
+    
+    font-size: 32px;
+   
+}
+.hero> :nth-child(2)
+{
+   
+    font-size: 32px;
+    
+}
+.hero> :nth-child(3)
+{
+    
+    font-size: 18px;
+}
+.hero> :nth-child(4)
+{
+   
+    font-size: 18px;
+     
+}
+.hero-buttons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.faq h2{
+   
+    text-align:left ;
+    margin-left: 138px;
+    font-size: 32px;
+   
+}
+
+}
+
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 50px;
+}
+
+.foot-button
+{
+display: grid;
+gap: 40px;
+ position: relative;
+ right: 120px;
+ font-family: "Poppins", sans-serif;
+ 
+}
+.text{
+color: rgb(50, 109, 197);
+}    
+
+.foot-b{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+
+
+
